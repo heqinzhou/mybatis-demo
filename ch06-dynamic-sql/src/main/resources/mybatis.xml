@@ -12,6 +12,8 @@
 
 
 
+
+
     <environments default="medev">
         <environment id="medev">
             <transactionManager type="JDBC"/>
