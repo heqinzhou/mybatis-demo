@@ -26,4 +26,9 @@ public interface StudentDao {
     List<Student>  selectStudentForTwo(List<Student> idlist);
 
 
+    List<Student>  seleceAll();
+
+
+
+
 }

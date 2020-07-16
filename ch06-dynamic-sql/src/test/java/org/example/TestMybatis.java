@@ -1,5 +1,6 @@
 package org.example;
 
+import com.github.pagehelper.PageHelper;
 import org.apache.ibatis.session.SqlSession;
 
 import org.example.dao.StudentDao;
@@ -83,6 +84,18 @@ public class TestMybatis {
         stulist.add(ss1);
 
         List<Student> students = dao.selectStudentForTwo(stulist);
+        for(Student stu : students){
+            System.out.println(stu);
+        }
+    }
+
+
+    @Test
+    public void seleceAll(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        StudentDao dao = sqlSession.getMapper(StudentDao.class);
+        PageHelper.startPage(1,3);
+        List<Student> students = dao.seleceAll();
         for(Student stu : students){
             System.out.println(stu);
         }

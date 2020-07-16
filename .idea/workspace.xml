@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="346c515c-c569-41f3-b10a-7fed25c07840" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="346c515c-c569-41f3-b10a-7fed25c07840" name="Default Changelist" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-mybatis-dao/ch01-hello-mabatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-mybatis-dao/ch01-hello-mabatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/ch06-dynamic-sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/ch06-dynamic-sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/test/java/org/example/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/test/java/org/example/TestMybatis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ekvAfMVhR6r5OKQFLfWqs4io72" />
@@ -48,7 +48,23 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.TestMybatis.selectStudentForTwo">
+  <component name="RunManager" selected="JUnit.TestMybatis.seleceAll">
+    <configuration name="TestMybatis.seleceAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="seleceAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMybatis.selectStudentForTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch06-dynamic-sql" />
       <extension name="coverage">
@@ -83,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMybatis.seleceAll" />
         <item itemvalue="JUnit.TestMybatis.selectStudentForTwo" />
         <item itemvalue="JUnit.TestMybatis.testForeach" />
       </list>
@@ -99,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594878262780</updated>
       <workItem from="1594878266224" duration="336000" />
-      <workItem from="1594878981088" duration="2134000" />
+      <workItem from="1594878981088" duration="2950000" />
     </task>
     <task id="LOCAL-00001">
       <created>1594881946333</created>
@@ -108,14 +125,36 @@
       <option name="project" value="LOCAL" />
       <updated>1594881946333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="123">
+      <created>1594882287216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594882287216</updated>
+    </task>
+    <task id="LOCAL-00003" summary="123">
+      <created>1594882333234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594882333234</updated>
+    </task>
+    <task id="LOCAL-00004" summary="123">
+      <created>1594882388639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594882388639</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="860" y="460" key="FileChooserDialogImpl" timestamp="1594878597497">
@@ -130,22 +169,38 @@
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
     <state x="793" y="401" key="Github.UntrackedFilesDialog/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594879148262" />
-    <state width="2161" height="411" key="GridCell.Tab.0.bottom" timestamp="1594881921064">
+    <state width="2161" height="411" key="GridCell.Tab.0.bottom" timestamp="1594883064572">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594881921064" />
-    <state width="2161" height="411" key="GridCell.Tab.0.center" timestamp="1594881921064">
+    <state width="2161" height="411" key="GridCell.Tab.0.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064572" />
+    <state width="2161" height="411" key="GridCell.Tab.0.center" timestamp="1594883064571">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594881921064" />
-    <state width="2161" height="411" key="GridCell.Tab.0.left" timestamp="1594881921063">
+    <state width="2161" height="411" key="GridCell.Tab.0.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064571" />
+    <state width="2161" height="411" key="GridCell.Tab.0.left" timestamp="1594883064571">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594881921063" />
-    <state width="2161" height="411" key="GridCell.Tab.0.right" timestamp="1594881921064">
+    <state width="2161" height="411" key="GridCell.Tab.0.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064571" />
+    <state width="2161" height="411" key="GridCell.Tab.0.right" timestamp="1594883064571">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594881921064" />
+    <state width="2161" height="411" key="GridCell.Tab.0.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064571" />
+    <state width="2161" height="504" key="GridCell.Tab.1.bottom" timestamp="1594883028435">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="504" key="GridCell.Tab.1.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028435" />
+    <state width="2161" height="504" key="GridCell.Tab.1.center" timestamp="1594883028435">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="504" key="GridCell.Tab.1.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028435" />
+    <state width="2161" height="504" key="GridCell.Tab.1.left" timestamp="1594883028434">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="504" key="GridCell.Tab.1.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028434" />
+    <state width="2161" height="504" key="GridCell.Tab.1.right" timestamp="1594883028435">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="504" key="GridCell.Tab.1.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028435" />
     <state x="720" y="408" key="NewModule_or_Project.wizard" timestamp="1594878598986">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
@@ -154,6 +209,14 @@
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
     <state x="560" y="279" key="SettingsEditor/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878602707" />
+    <state x="672" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594882390247">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state x="672" y="438" key="Vcs.Push.Dialog.v2/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594882390247" />
+    <state x="782" y="306" width="596" height="798" key="find.popup" timestamp="1594882874463">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state x="782" y="306" width="596" height="798" key="find.popup/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594882874463" />
     <state x="454" y="365" key="new project wizard" timestamp="1594878458146">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
