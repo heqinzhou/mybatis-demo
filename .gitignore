@@ -1,0 +1,6 @@
+# Project exclude paths
+/ch02-mybatis-dao/target/
+/ch03-proxy-dao/target/
+/ch04-proxy-dao/target/
+/ch05-return-result/target/
+/ch06-dynamic-sql/target/

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.dao.StudentDao">
+<select id="selectStudentById" parameterType="java.lang.Integer" resultType="org.example.daomain.Student">
+    select id,name,email,age from student where id=#{studentid}
+</select>
+
+<select id="selectMulitParam"  resultType="org.example.daomain.Student">
+    select id,name,email,age from student where name=#{myname} or age=#{myage}
+</select>
+
+<!--
+    #{paramName,javaType = java.lang.String,jdbsType=VARCHAR}
+    #{paramAge,javaType = java.lang.Integer,jdbsType=INTEGER}
+<-->
+    <select id="selectMulitObject" resultType="org.example.daomain.Student">
+        select id,name,email,age from student where name=#{paramName} or age=#{paramAge}
+    </select>
+
+    <select id="selectMulitStudent" resultType="org.example.daomain.Student">
+        select id,name,email,age from student where name=#{name} or age=#{age}
+    </select>
+</mapper>

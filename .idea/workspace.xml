@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="346c515c-c569-41f3-b10a-7fed25c07840" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ekvAfMVhR6r5OKQFLfWqs4io72" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch01-mybatis-dao" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="JUnit.TestMybatis.selectStudentForTwo">
+    <configuration name="TestMybatis.selectStudentForTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="selectStudentForTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatis.testForeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="testForeach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMybatis.selectStudentForTwo" />
+        <item itemvalue="JUnit.TestMybatis.testForeach" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="346c515c-c569-41f3-b10a-7fed25c07840" name="Default Changelist" comment="" />
+      <created>1594878262780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594878262780</updated>
+      <workItem from="1594878266224" duration="336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="860" y="460" key="FileChooserDialogImpl" timestamp="1594878597497">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state x="860" y="460" key="FileChooserDialogImpl/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878597497" />
+    <state width="2161" height="411" key="GridCell.Tab.0.bottom" timestamp="1594878522011">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="411" key="GridCell.Tab.0.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878522011" />
+    <state width="2161" height="411" key="GridCell.Tab.0.center" timestamp="1594878522010">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="411" key="GridCell.Tab.0.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878522010" />
+    <state width="2161" height="411" key="GridCell.Tab.0.left" timestamp="1594878522010">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="411" key="GridCell.Tab.0.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878522010" />
+    <state width="2161" height="411" key="GridCell.Tab.0.right" timestamp="1594878522011">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state width="2161" height="411" key="GridCell.Tab.0.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878522011" />
+    <state x="720" y="408" key="NewModule_or_Project.wizard" timestamp="1594878598986">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state x="720" y="408" key="NewModule_or_Project.wizard/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878598986" />
+    <state x="560" y="279" key="SettingsEditor" timestamp="1594878602707">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state x="560" y="279" key="SettingsEditor/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878602707" />
+    <state x="454" y="365" key="new project wizard" timestamp="1594878458146">
+      <screen x="0" y="0" width="2160" height="1410" />
+    </state>
+    <state x="454" y="365" key="new project wizard/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878458146" />
+  </component>
+</project>
