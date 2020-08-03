@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="346c515c-c569-41f3-b10a-7fed25c07840" name="Default Changelist" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01-mybatis-dao/ch01-hello-mabatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-mybatis-dao/ch01-hello-mabatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/ch06-dynamic-sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/ch06-dynamic-sql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/java/org/example/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/main/resources/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch06-dynamic-sql/src/test/java/org/example/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch06-dynamic-sql/src/test/java/org/example/TestMybatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-mybatis-dao/ch02-mybatis-dao.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.TestMybatis.seleceAll">
+  <component name="RunManager" selected="JUnit.TestMybatis.testinsert">
     <configuration name="TestMybatis.seleceAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch06-dynamic-sql" />
       <extension name="coverage">
@@ -97,8 +91,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMybatis.testinsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch01-hello-mabatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestMybatis" />
+      <option name="METHOD_NAME" value="testinsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mybatis-demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mybatis-demo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMybatis.testinsert" />
         <item itemvalue="JUnit.TestMybatis.seleceAll" />
         <item itemvalue="JUnit.TestMybatis.selectStudentForTwo" />
         <item itemvalue="JUnit.TestMybatis.testForeach" />
@@ -116,7 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1594878262780</updated>
       <workItem from="1594878266224" duration="336000" />
-      <workItem from="1594878981088" duration="2950000" />
+      <workItem from="1594878981088" duration="3127000" />
+      <workItem from="1594883939797" duration="82000" />
+      <workItem from="1595850406009" duration="22000" />
+      <workItem from="1595850451753" duration="7000" />
+      <workItem from="1595850536348" duration="106000" />
+      <workItem from="1595850710637" duration="48000" />
     </task>
     <task id="LOCAL-00001">
       <created>1594881946333</created>
@@ -146,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594882388639</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="123">
+      <created>1594883228341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594883228341</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,10 +227,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="860" y="460" key="FileChooserDialogImpl" timestamp="1594878597497">
+    <state x="860" y="460" key="FileChooserDialogImpl" timestamp="1595850573259">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state x="860" y="460" key="FileChooserDialogImpl/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878597497" />
+    <state x="860" y="460" key="FileChooserDialogImpl/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594884005444" />
+    <state x="860" y="460" key="FileChooserDialogImpl/0.0.2160.1410@0.0.2160.1410" timestamp="1595850573259" />
     <state x="937" y="602" key="Github.ShareDialog" timestamp="1594879177176">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
@@ -169,58 +240,61 @@
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
     <state x="793" y="401" key="Github.UntrackedFilesDialog/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594879148262" />
-    <state width="2161" height="411" key="GridCell.Tab.0.bottom" timestamp="1594883064572">
+    <state width="2161" height="504" key="GridCell.Tab.0.bottom" timestamp="1594883267877">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064572" />
-    <state width="2161" height="411" key="GridCell.Tab.0.center" timestamp="1594883064571">
+    <state width="2161" height="504" key="GridCell.Tab.0.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267877" />
+    <state width="2161" height="504" key="GridCell.Tab.0.center" timestamp="1594883267876">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064571" />
-    <state width="2161" height="411" key="GridCell.Tab.0.left" timestamp="1594883064571">
+    <state width="2161" height="504" key="GridCell.Tab.0.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267876" />
+    <state width="2161" height="504" key="GridCell.Tab.0.left" timestamp="1594883267876">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064571" />
-    <state width="2161" height="411" key="GridCell.Tab.0.right" timestamp="1594883064571">
+    <state width="2161" height="504" key="GridCell.Tab.0.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267876" />
+    <state width="2161" height="504" key="GridCell.Tab.0.right" timestamp="1594883267876">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="411" key="GridCell.Tab.0.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883064571" />
-    <state width="2161" height="504" key="GridCell.Tab.1.bottom" timestamp="1594883028435">
+    <state width="2161" height="504" key="GridCell.Tab.0.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267876" />
+    <state width="2161" height="504" key="GridCell.Tab.1.bottom" timestamp="1594883267877">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="504" key="GridCell.Tab.1.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028435" />
-    <state width="2161" height="504" key="GridCell.Tab.1.center" timestamp="1594883028435">
+    <state width="2161" height="504" key="GridCell.Tab.1.bottom/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267877" />
+    <state width="2161" height="504" key="GridCell.Tab.1.center" timestamp="1594883267877">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="504" key="GridCell.Tab.1.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028435" />
-    <state width="2161" height="504" key="GridCell.Tab.1.left" timestamp="1594883028434">
+    <state width="2161" height="504" key="GridCell.Tab.1.center/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267877" />
+    <state width="2161" height="504" key="GridCell.Tab.1.left" timestamp="1594883267877">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="504" key="GridCell.Tab.1.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028434" />
-    <state width="2161" height="504" key="GridCell.Tab.1.right" timestamp="1594883028435">
+    <state width="2161" height="504" key="GridCell.Tab.1.left/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267877" />
+    <state width="2161" height="504" key="GridCell.Tab.1.right" timestamp="1594883267877">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state width="2161" height="504" key="GridCell.Tab.1.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883028435" />
-    <state x="720" y="408" key="NewModule_or_Project.wizard" timestamp="1594878598986">
+    <state width="2161" height="504" key="GridCell.Tab.1.right/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883267877" />
+    <state x="720" y="408" key="NewModule_or_Project.wizard" timestamp="1595850575192">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
     <state x="720" y="408" key="NewModule_or_Project.wizard/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878598986" />
-    <state x="560" y="279" key="SettingsEditor" timestamp="1594878602707">
+    <state x="720" y="408" key="NewModule_or_Project.wizard/0.0.2160.1410@0.0.2160.1410" timestamp="1595850575192" />
+    <state x="560" y="279" key="SettingsEditor" timestamp="1595850582536">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
     <state x="560" y="279" key="SettingsEditor/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878602707" />
-    <state x="672" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594882390247">
+    <state x="560" y="279" key="SettingsEditor/0.0.2160.1410@0.0.2160.1410" timestamp="1595850582536" />
+    <state x="672" y="438" key="Vcs.Push.Dialog.v2" timestamp="1594883230505">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state x="672" y="438" key="Vcs.Push.Dialog.v2/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594882390247" />
+    <state x="672" y="438" key="Vcs.Push.Dialog.v2/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594883230505" />
     <state x="782" y="306" width="596" height="798" key="find.popup" timestamp="1594882874463">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
     <state x="782" y="306" width="596" height="798" key="find.popup/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594882874463" />
-    <state x="454" y="365" key="new project wizard" timestamp="1594878458146">
+    <state x="454" y="365" key="new project wizard" timestamp="1595850756314">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
-    <state x="454" y="365" key="new project wizard/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594878458146" />
+    <state x="454" y="365" key="new project wizard/0.0.2160.1410/7.-1080.1920.1050@0.0.2160.1410" timestamp="1594884019192" />
+    <state x="454" y="365" key="new project wizard/0.0.2160.1410@0.0.2160.1410" timestamp="1595850756314" />
     <state x="743" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1594881863064">
       <screen x="0" y="0" width="2160" height="1410" />
     </state>
